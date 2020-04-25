@@ -25,7 +25,7 @@
 
 <body>
 
-    <div class="brand">Sole Mates Shoe Store</div>
+    <div class="brand">Entregas ConfiguroWeb</div>
     <div class="address-bar"><strong>Cheap</strong> Shoes for Everyone</div>
 
     <nav class="navbar navbar-default" role="navigation">
@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Sole Mates Shoe Store</a>
+                <a class="navbar-brand" href="index.html">Entregas ConfiguroWeb</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -110,7 +110,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Sole Mates Shoe Store 2017</p>
+                    <p>Copyright &copy; Entregas ConfiguroWeb 2017</p>
                 </div>
             </div>
         </div>
