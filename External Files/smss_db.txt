@@ -1,0 +1,67 @@
+CREATE TABLE tbl_customers
+(
+	CustomerID int AUTO_INCREMENT,
+	Username varchar(30),
+	Password varchar(30),
+	Role varchar(30),
+    Firstname varchar(30),
+	Middlename varchar(30),
+    Lastname varchar(30),
+    Address varchar(30),
+    EmailAddress varchar(30),
+    PRIMARY key(CustomerID)
+)
+
+CREATE TABLE tbl_products
+(
+	ProductID int AUTO_INCREMENT,
+    Productname varchar(30),
+    ProductBrand varchar(30),
+    ProductSize varchar(30),
+    ProductColor varchar(30),
+	ProductPrice varchar(30),
+    ProductCategory varchar(30),
+    ProductImageName varchar(50),
+    ProductImage longblob,
+    PRIMARY KEY(ProductID)
+)
+
+create table tbl_Orders
+(
+	OrderID int AUTO_INCREMENT,
+    ProductID int,
+    CustomerID int,
+	Size varchar(30),
+	Color varchar(30),
+    DateOrdered varchar(30),
+    PRIMARY key(OrderID),
+    FOREIGN KEY(ProductID) REFERENCES tbl_products(ProductID),
+    FOREIGN KEY(CustomerID) REFERENCES tbl_customers(CustomerID)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
